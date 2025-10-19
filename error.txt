@@ -1,214 +1,126 @@
-[1370/1381] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ble_keyboard_service.c.obj
-FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/ble_keyboard_service.c.obj
-ccache D:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.5.1-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/Projects/usb_ble_keyboard/build/config -ID:/Projects/usb_ble_keyboard/main -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/newlib/platform_include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/include/freertos -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/esp_additions/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/soc -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/soc/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/dma/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/ldo/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/debug_probe/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/power_supply/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/port/esp32s3/. -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/port/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/. -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/heap/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/heap/tlsf -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3/register -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/platform_port/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/include/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/port/soc -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/port/include/private -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/deprecated_include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include/apps -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include/apps/sntp -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/lwip/src/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/freertos/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include/arch -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include/sys -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/nvs_flash/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_partition/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_timer/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/deprecated -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/i2c/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/touch_sensor/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/twai/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/touch_sensor/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_pm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_ringbuf/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_gpio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_pcnt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_gptimer/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_spi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_mcpwm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_ana_cmpr/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_i2s/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdmmc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/sdmmc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdspi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_dac/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_rmt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_tsens/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_i2c/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_uart/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/vfs/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_ledc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_parlio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_usb_serial_jtag/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_twai/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_event/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/include/esp32c3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/osi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/api/include/api -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/btc/profile/esp/blufi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/btc/profile/esp/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/hci_log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/ble_log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/tinycrypt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/tinycrypt/port -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/include/local -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/wifi_apps/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/wifi_apps/nan_app/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_phy/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_phy/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_netif/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/usb/include -ID:/Projects/usb_ble_keyboard/managed_components/espressif__usb_host_hid/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hid/include -ID:/Projects/usb_ble_keyboard/components/bt_hid_device -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=D:/Projects/usb_ble_keyboard=. -fmacro-prefix-map=D:/Espressif/frameworks/esp-idf-v5.5.1=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/ble_keyboard_service.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\ble_keyboard_service.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/ble_keyboard_service.c.obj -c D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   26 |     {ESP_UUID_LEN_16, (uint8_t *)&primary_service_uuid, ESP_GATT_PERM_READ,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:23: note: (near initialization for 'gatt_db[0].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:23: note: (near initialization for 'gatt_db[0].att_desc.uuid_length')
-In file included from D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatts_api.h:11,
-                 from D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:5:
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:57: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   26 |     {ESP_UUID_LEN_16, (uint8_t *)&primary_service_uuid, ESP_GATT_PERM_READ,
-      |                                                         ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[0].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:26:57: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   26 |     {ESP_UUID_LEN_16, (uint8_t *)&primary_service_uuid, ESP_GATT_PERM_READ,
-      |                                                         ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:50: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   27 |      sizeof(uint16_t), sizeof(HID_SERVICE_UUID), (uint8_t *)&HID_SERVICE_UUID},
-      |                                                  ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:50: note: (near initialization for 'gatt_db[0].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:50: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:50: note: (near initialization for 'gatt_db[0].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:6: warning: missing initializer for field 'length' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   27 |      sizeof(uint16_t), sizeof(HID_SERVICE_UUID), (uint8_t *)&HID_SERVICE_UUID},
-      |      ^~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:509:14: note: 'length' declared here
-  509 |     uint16_t length;                   /*!< Current length of the attribute's value. */
-      |              ^~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:25:39: error: missing braces around initializer [-Werror=missing-braces]
-   25 | const esp_gatts_attr_db_t gatt_db[] = {
-      |                                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:6: warning: missing initializer for field 'att_desc' of
-esp_gatts_attr_db_t' [-Wmissing-field-initializers]
-   27 |      sizeof(uint16_t), sizeof(HID_SERVICE_UUID), (uint8_t *)&HID_SERVICE_UUID},
-      |      ^~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:554:29: note: 'att_desc' declared here
-  554 |     esp_attr_desc_t         att_desc;                       /*!< The attribute type */
-      |                             ^~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   29 |     {ESP_UUID_LEN_16, (uint8_t *)&character_declaration_uuid, ESP_GATT_PERM_READ,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:23: note: (near initialization for 'gatt_db[1].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:23: note: (near initialization for 'gatt_db[1].att_desc.uuid_length')
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:63: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   29 |     {ESP_UUID_LEN_16, (uint8_t *)&character_declaration_uuid, ESP_GATT_PERM_READ,
-      |                                                               ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[1].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:29:63: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   29 |     {ESP_UUID_LEN_16, (uint8_t *)&character_declaration_uuid, ESP_GATT_PERM_READ,
-      |                                                               ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:30:12: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   30 |      1, 1, (uint8_t *)&char_prop_read},
-      |            ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:30:12: note: (near initialization for 'gatt_db[1].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:30:12: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:30:12: note: (near initialization for 'gatt_db[1].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:30:6: warning: missing initializer for field 'length' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   30 |      1, 1, (uint8_t *)&char_prop_read},
-      |      ^
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:509:14: note: 'length' declared here
-  509 |     uint16_t length;                   /*!< Current length of the attribute's value. */
-      |              ^~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   32 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_INFO_UUID, ESP_GATT_PERM_READ,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:23: note: (near initialization for 'gatt_db[2].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:23: note: (near initialization for 'gatt_db[2].att_desc.uuid_length')
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:50: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   32 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_INFO_UUID, ESP_GATT_PERM_READ,
-      |                                                  ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[2].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:32:50: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   32 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_INFO_UUID, ESP_GATT_PERM_READ,
-      |                                                  ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:33:13: error: 'hid_info_t' undeclared here (not in a function)
-   33 |      sizeof(hid_info_t), sizeof(hid_info_t), NULL},
-      |             ^~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:33:46: error: initialization of 'short unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
-   33 |      sizeof(hid_info_t), sizeof(hid_info_t), NULL},
-      |                                              ^~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:33:46: note: (near initialization for 'gatt_db[2].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:33:6: warning: missing initializer for field 'value' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   33 |      sizeof(hid_info_t), sizeof(hid_info_t), NULL},
-      |      ^~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:510:15: note: 'value' declared here
-  510 |     uint8_t  *value;                   /*!< Pointer to the attribute's value array. */
-      |               ^~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   35 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_MAP_UUID, ESP_GATT_PERM_READ,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:23: note: (near initialization for 'gatt_db[3].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:23: note: (near initialization for 'gatt_db[3].att_desc.uuid_length')
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:56: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   35 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_MAP_UUID, ESP_GATT_PERM_READ,
-      |                                                        ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[3].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:35:56: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   35 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_MAP_UUID, ESP_GATT_PERM_READ,
-      |                                                        ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:36:6: error: 'HID_REPORT_MAP_SIZE' undeclared here (not in a function); did you mean 'HID_REPORT_MAP_UUID'?
-   36 |      HID_REPORT_MAP_SIZE, HID_REPORT_MAP_SIZE, hid_report_map},
-      |      ^~~~~~~~~~~~~~~~~~~
-      |      HID_REPORT_MAP_UUID
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:36:48: error: 'hid_report_map' undeclared here (not in a function)
-   36 |      HID_REPORT_MAP_SIZE, HID_REPORT_MAP_SIZE, hid_report_map},
-      |                                                ^~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:36:6: warning: missing initializer for field 'perm' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   36 |      HID_REPORT_MAP_SIZE, HID_REPORT_MAP_SIZE, hid_report_map},
-      |      ^~~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:507:14: note: 'perm' declared here
-  507 |     uint16_t perm;                     /*!< Attribute permissions, defined by esp_gatt_perm_t. */
-      |              ^~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   38 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_CHAR_UUID, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:23: note: (near initialization for 'gatt_db[4].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:23: note: (near initialization for 'gatt_db[4].att_desc.uuid_length')
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:57: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   38 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_CHAR_UUID, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                                                         ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[4].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:38:57: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   38 |     {ESP_UUID_LEN_16, (uint8_t *)&HID_REPORT_CHAR_UUID, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                                                         ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:39:6: error: 'HID_REPORT_SIZE' undeclared here (not in a function)
-   39 |      HID_REPORT_SIZE, 0, NULL},
-      |      ^~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:39:26: error: initialization of 'short unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
-   39 |      HID_REPORT_SIZE, 0, NULL},
-      |                          ^~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:39:26: note: (near initialization for 'gatt_db[4].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:39:6: warning: missing initializer for field 'value' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   39 |      HID_REPORT_SIZE, 0, NULL},
-      |      ^~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:510:15: note: 'value' declared here
-  510 |     uint8_t  *value;                   /*!< Pointer to the attribute's value array. */
-      |               ^~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:23: error: initialization of 'short unsigned int' from 'uint8_t *' {aka 'unsigned char *'} makes integer from pointer without a cast [-Wint-conversion]
-   41 |     {ESP_UUID_LEN_16, (uint8_t *)&client_character_config_uuid, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                       ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:23: note: (near initialization for 'gatt_db[5].att_desc.uuid_length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:23: error: initializer element is not computable at load time
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:23: note: (near initialization for 'gatt_db[5].att_desc.uuid_length')
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: error: initialization of 'uint8_t *' {aka 'unsigned char *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:65: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   41 |     {ESP_UUID_LEN_16, (uint8_t *)&client_character_config_uuid, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                                                                 ^~~~~~~~~~~~~~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:391:45: note: (near initialization for 'gatt_db[5].att_desc.uuid_p')
-  391 | #define ESP_GATT_PERM_READ                  (1 << 0)
-      |                                             ^
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:41:65: note: in expansion of macro 'ESP_GATT_PERM_READ'
-   41 |     {ESP_UUID_LEN_16, (uint8_t *)&client_character_config_uuid, ESP_GATT_PERM_READ | ESP_GATT_PERM_WRITE,
-      |                                                                 ^~~~~~~~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:42:27: error: initialization of 'short unsigned int' from 'void *' makes integer from pointer without a cast [-Wint-conversion]
-   42 |      sizeof(uint16_t), 0, NULL},
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c: In function 'ble_keyboard_service_init':
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:19:5: error: unknown type name 'esp_hid_device_config_t'
+   19 |     esp_hid_device_config_t config = {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:20:9: error: field name not in record or union initializer
+   20 |         .subclass = HID_SUBCLASS_BOOT_KEYBOARD,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:20:9: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:20:21: error: 'HID_SUBCLASS_BOOT_KEYBOARD' undeclared (first use in this function)
+   20 |         .subclass = HID_SUBCLASS_BOOT_KEYBOARD,
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:21:9: error: field name not in record or union initializer
+   21 |         .country_code = 0,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:21:9: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:21:25: warning: excess elements in scalar initializer
+   21 |         .country_code = 0,
+      |                         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:21:25: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:22:9: error: field name not in record or union initializer
+   22 |         .descriptor = NULL,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:22:9: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:22:23: warning: excess elements in scalar initializer
+   22 |         .descriptor = NULL,
+      |                       ^~~~
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:22:23: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:23:9: error: field name not in record or union initializer
+   23 |         .descriptor_size = 0,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:23:9: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:23:28: warning: excess elements in scalar initializer
+   23 |         .descriptor_size = 0,
+      |                            ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:23:28: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:24:9: error: field name not in record or union initializer
+   24 |         .event_callback = NULL,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:24:9: note: (near initialization for 'config')
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:24:27: warning: excess elements in scalar initializer
+   24 |         .event_callback = NULL,
       |                           ^~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:42:27: note: (near initialization for 'gatt_db[5].att_desc.length')
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:42:6: warning: missing initializer for field 'value' of 'esp_attr_desc_t' [-Wmissing-field-initializers]
-   42 |      sizeof(uint16_t), 0, NULL},
-      |      ^~~~~~
-D:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api/esp_gatt_defs.h:510:15: note: 'value' declared here
-  510 |     uint8_t  *value;                   /*!< Pointer to the attribute's value array. */
-      |               ^~~~~
-D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:15:23: error: 'char_prop_notify' defined but not used [-Werror=unused-const-variable=]
-   15 | static const uint8_t  char_prop_notify           = ESP_GATT_CHAR_PROP_BIT_NOTIFY;
-      |                       ^~~~~~~~~~~~~~~~
-cc1.exe: some warnings being treated as errors
-[1371/1381] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:24:27: note: (near initialization for 'config')
+In file included from D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:2:
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:27:21: error: implicit declaration of function 'esp_hid_device_init'; did you mean 'esp_hid_gap_init'? [-Wimplicit-function-declaration]
+   27 |     ESP_ERROR_CHECK(esp_hid_device_init(&config));
+      |                     ^~~~~~~~~~~~~~~~~~~
+D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include/esp_err.h:116:30: note: in definition of macro
+ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:28:21: error: implicit declaration of function 'esp_hid_device_start' [-Wimplicit-function-declaration]
+   28 |     ESP_ERROR_CHECK(esp_hid_device_start());
+      |                     ^~~~~~~~~~~~~~~~~~~~
+D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include/esp_err.h:116:30: note: in definition of macro
+ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c: In function 'ble_send_report':
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:44:21: error: implicit declaration of function 'esp_hid_device_send_report' [-Wimplicit-function-declaration]
+   44 |     ESP_ERROR_CHECK(esp_hid_device_send_report(HID_REPORT_TYPE_INPUT, report, sizeof(report)));
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include/esp_err.h:116:30: note: in definition of macro
+ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+D:/Projects/usb_ble_keyboard/main/ble_keyboard_service.c:44:48: error: 'HID_REPORT_TYPE_INPUT' undeclared (first use in this function)
+   44 |     ESP_ERROR_CHECK(esp_hid_device_send_report(HID_REPORT_TYPE_INPUT, report, sizeof(report)));
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include/esp_err.h:116:30: note: in definition of macro
+ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+[1371/1382] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
 FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
 ccache D:\Espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v5.5.1-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -ID:/Projects/usb_ble_keyboard/build/config -ID:/Projects/usb_ble_keyboard/main -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/newlib/platform_include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/include/freertos -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/config/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/esp_additions/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/soc -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/soc/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/dma/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/ldo/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/debug_probe/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/power_supply/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/port/esp32s3/. -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/port/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/. -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/heap/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/heap/tlsf -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3/register -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/platform_port/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/hal/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/include/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3 -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/port/soc -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_system/port/include/private -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/xtensa/deprecated_include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include/apps -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/include/apps/sntp -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/lwip/src/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/freertos/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include/arch -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/lwip/port/esp32xx/include/sys -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/nvs_flash/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_partition/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_timer/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/deprecated -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/i2c/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/touch_sensor/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/twai/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/driver/touch_sensor/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_pm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_ringbuf/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_gpio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_pcnt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_gptimer/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_spi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_mcpwm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_ana_cmpr/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_i2s/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdmmc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/sdmmc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdspi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_dac/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_rmt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_tsens/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_sdm/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_i2c/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_uart/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/vfs/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_ledc/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_parlio/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_usb_serial_jtag/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_driver_twai/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_event/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/include/esp32c3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/osi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/api/include/api -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/btc/profile/esp/blufi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/btc/profile/esp/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/hci_log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/ble_log/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/host/bluedroid/api/include/api -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/tinycrypt/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/bt/common/tinycrypt/port -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/include/local -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/wifi_apps/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_wifi/wifi_apps/nan_app/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_phy/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_phy/esp32s3/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_netif/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/usb/include -ID:/Projects/usb_ble_keyboard/managed_components/espressif__usb_host_hid/include -ID:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hid/include -ID:/Projects/usb_ble_keyboard/components/bt_hid_device -mlongcalls  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=D:/Projects/usb_ble_keyboard=. -fmacro-prefix-map=D:/Espressif/frameworks/esp-idf-v5.5.1=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj -c D:/Projects/usb_ble_keyboard/main/main.c
-D:/Projects/usb_ble_keyboard/main/main.c: In function 'handle_usb_keyboard_report':
-D:/Projects/usb_ble_keyboard/main/main.c:17:9: error: implicit declaration of function 'ble_hid_send_keyboard_report' [-Wimplicit-function-declaration]
-   17 |         ble_hid_send_keyboard_report(data, length);
-      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Projects/usb_ble_keyboard/main/main.c:13:36: error: unknown type name 'hid_host_event_t'; did you mean 'hid_host_dev_info_t'?
+   13 | static void usb_hid_event_callback(hid_host_event_t event, void *arg)
+      |                                    ^~~~~~~~~~~~~~~~
+      |                                    hid_host_dev_info_t
 D:/Projects/usb_ble_keyboard/main/main.c: In function 'app_main':
-D:/Projects/usb_ble_keyboard/main/main.c:43:5: error: implicit declaration of function 'ble_hid_init' [-Wimplicit-function-declaration]
-   43 |     ble_hid_init();
-      |     ^~~~~~~~~~~~
-D:/Projects/usb_ble_keyboard/main/main.c: At top level:
-D:/Projects/usb_ble_keyboard/main/main.c:13:13: warning: 'handle_usb_keyboard_report' defined but not used [-Wunused-function]
-   13 | static void handle_usb_keyboard_report(const uint8_t *data, size_t length)
+D:/Projects/usb_ble_keyboard/main/main.c:55:10: error: 'usb_host_config_t' has no member named 'max_num_devices'
+   55 |         .max_num_devices = 1
+      |          ^~~~~~~~~~~~~~~
+D:/Projects/usb_ble_keyboard/main/main.c:55:28: error: initialization of '_Bool (*)(const usb_device_desc_t *, uint8_t *)' {aka '_Bool (*)(const usb_device_desc_t *, unsigned char *)'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   55 |         .max_num_devices = 1
+      |                            ^
+D:/Projects/usb_ble_keyboard/main/main.c:55:28: note: (near initialization for 'usb_cfg.enum_filter_cb')
+D:/Projects/usb_ble_keyboard/main/main.c:61:5: error: unknown type name 'hid_host_config_t'; did you mean 'usb_host_config_t'?
+   61 |     hid_host_config_t hid_cfg = {
+      |     ^~~~~~~~~~~~~~~~~
+      |     usb_host_config_t
+D:/Projects/usb_ble_keyboard/main/main.c:62:9: error: field name not in record or union initializer
+   62 |         .intr_flags = 0,
+      |         ^
+D:/Projects/usb_ble_keyboard/main/main.c:62:9: note: (near initialization for 'hid_cfg')
+D:/Projects/usb_ble_keyboard/main/main.c:63:9: error: field name not in record or union initializer
+   63 |         .event_callback = usb_hid_event_callback
+      |         ^
+D:/Projects/usb_ble_keyboard/main/main.c:63:9: note: (near initialization for 'hid_cfg')
+D:/Projects/usb_ble_keyboard/main/main.c:63:27: error: 'usb_hid_event_callback' undeclared (first use in this function)
+   63 |         .event_callback = usb_hid_event_callback
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+D:/Projects/usb_ble_keyboard/main/main.c:63:27: note: each undeclared identifier is reported only once for each function it appears in
+D:/Projects/usb_ble_keyboard/main/main.c:63:27: warning: excess elements in scalar initializer
+D:/Projects/usb_ble_keyboard/main/main.c:63:27: note: (near initialization for 'hid_cfg')
+In file included from D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/esp_intr_alloc.h:12,
+                 from D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/esp_cpu.h:21,
+                 from D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_hw_support/include/spinlock.h:11,
+                 from D:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:49,
+                 from D:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/include/freertos/portable.h:57,
+                 from D:/Espressif/frameworks/esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:69,
+                 from D:/Projects/usb_ble_keyboard/main/main.c:2:
+D:/Projects/usb_ble_keyboard/main/main.c:65:38: error: passing argument 1 of 'hid_host_install' from incompatible pointer type [-Wincompatible-pointer-types]
+   65 |     ESP_ERROR_CHECK(hid_host_install(&hid_cfg));
+      |                                      ^~~~~~~~
+      |                                      |
+      |                                      int *
+D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_common/include/esp_err.h:116:30: note: in definition of macro
+ESP_ERROR_CHECK'
+  116 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+In file included from D:/Projects/usb_ble_keyboard/main/main.c:7:
+D:/Projects/usb_ble_keyboard/managed_components/espressif__usb_host_hid/include/usb/hid_host.h:124:60: note: expected 'const hid_host_driver_config_t *' but argument is of type 'int *'
+  124 | esp_err_t hid_host_install(const hid_host_driver_config_t *config);
