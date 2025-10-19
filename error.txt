@@ -198,4 +198,72 @@ D:/Projects/usb_ble_keyboard/main/main.c:19:13: warning: 'handle_keyboard_report
 ninja: build stopped: subcommand failed.
 ninja failed with exit code 1, output of the command is in the D:\Projects\usb_ble_keyboard\build\log\idf_py_stderr_output_5856 and D:\Projects\usb_ble_keyboard\build\log\idf_py_stdout_output_5856
 
-D:\Projects\usb_ble_keyboard>
+D:\Projects\usb_ble_keyboard>idf.py fullclean
+Executing action: fullclean
+Executing action: remove_managed_components
+Done
+
+D:\Projects\usb_ble_keyboard>idf.py build
+Executing action: all (aliases: build)
+Running cmake in directory D:\Projects\usb_ble_keyboard\build
+Executing "cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=D:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 D:\Projects\usb_ble_keyboard"...
+-- IDF_TARGET is not set, guessed 'esp32s3' from sdkconfig 'D:/Projects/usb_ble_keyboard/sdkconfig'
+-- Found Git: D:/Espressif/tools/idf-git/2.44.0/cmd/git.exe (found version "2.44.0.windows.1")
+-- Minimal build - OFF
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: espressif/usb
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/usb_host_hid (1.0.4)
+NOTICE: [2/2] idf (5.5.1)
+NOTICE: Skipping optional dependency: espressif/usb
+-- Project sdkconfig file D:/Projects/usb_ble_keyboard/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: D:/Espressif/python_env/idf5.5_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- USING O3
+-- App "usb_ble_keyboard" version: 1
+-- Adding linker script D:/Projects/usb_ble_keyboard/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/Projects/usb_ble_keyboard/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_cca.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script D:/Espressif/frameworks/esp-idf-v5.5.1/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+CMake Error at D:/Espressif/frameworks/esp-idf-v5.5.1/tools/cmake/component.cmake:318 (message):
+  Include directory
+  'D:/Projects/usb_ble_keyboard/components/bt_hid_device/include' is not a
+  directory.
+Call Stack (most recent call first):
+  D:/Espressif/frameworks/esp-idf-v5.5.1/tools/cmake/component.cmake:493 (__component_add_include_dirs)
+  components/bt_hid_device/CMakeLists.txt:1 (idf_component_register)
+
+
+-- Configuring incomplete, errors occurred!
+cmake failed with exit code 1, output of the command is in the D:\Projects\usb_ble_keyboard\build\log\idf_py_stderr_output_7108 and D:\Projects\usb_ble_keyboard\build\log\idf_py_stdout_output_7108
